@@ -1,0 +1,131 @@
+.navbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #98A8F8;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbarLeft{
+    flex: 3;
+}
+
+.logo{
+    font-size: 23px;
+    margin-left: 25px;
+    font-weight: 100;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    background: -webkit-linear-gradient(left, rgb(0, 0, 0) 0%, rgb(250, 0, 255) 20%, rgb(255, 255, 255) 50%, rgb(0, 0, 0) 70%, rgb(250, 0, 255) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbarCenter{
+    flex: 5;
+}
+
+.searchbar{
+    width: 100%;
+    height: 35px;
+    background-color: #FAF7F0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.searchbaricon{
+    font-size: 25px !important;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.searchinput{
+    width: 80%;
+    height: 30px;
+    border: none;
+    background-color: #FAF7F0;
+}
+
+.searchinput:focus{
+    outline: none;
+
+}
+
+.navbarRight{
+    flex: 4;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.navbarLink{
+    margin-right: 7px;
+    font-size: 14px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+.navbarIcons{
+    display: flex;   
+}
+
+.navbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbarIconBadge{
+    cursor: pointer !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    font-size:10px;
+    background-color: crimson;
+    border-radius:50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    z-index: -1;
+    
+    
+}
+
+.navbarimgContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.onlineBadge{
+    width:  10px;
+    height: 10px;
+    background-color: lightgreen;
+    border-radius:50%;
+    position: absolute;
+    top: -3px;
+    right: -1px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.navbarImg{
+    height: 36px;
+    width:  36px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    object-fit: cover;
+    cursor: pointer;
+}

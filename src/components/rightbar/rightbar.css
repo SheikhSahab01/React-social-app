@@ -1,0 +1,120 @@
+.Rightbar{
+    flex: 3.5;
+    height: calc(100vh - 50px);
+    background-color: #FAF7F0;
+    overflow-y: scroll;
+}
+
+.Rightbar::-webkit-scrollbar{
+    width:6px;
+}
+
+.Rightbar::-webkit-scrollbar-thumb:hover{
+    background-color: gray;
+    cursor:pointer;
+}
+
+.Rightbar::-webkit-scrollbar-track{
+    background-color: lightgray;
+}
+
+.Rightbar::-webkit-scrollbar-thumb{
+    background-color: rgb(189, 188, 188);
+    border-radius:30px;
+}
+
+.rightbarWrapper{
+    padding: 20px 20px 0 0px !important;
+}
+
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImg{
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.birthdayText{
+    font-size:15px;
+    font-weight: 100;
+
+}
+
+.birthdayBold{
+    cursor: pointer;
+}
+
+.rightbarAd{
+    width: 100%;
+    border-radius:10px;
+    margin: 30px 10px;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.rightbarTitle{
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.rightbarHr{
+    margin: 7px 0px 20px 0px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid black;
+    width: 95%; 
+}
+
+.rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+    -webkit-box-shadow: 17px 19px 11px -17px rgba(0,0,0,0.64);
+    -moz-box-shadow: 17px 19px 11px -17px rgba(0,0,0,0.64);
+    box-shadow: 17px 19px 11px -17px rgba(0,0,0,0.64);
+}
+
+.rightbarProfileImgContainer{
+    margin-right: 10px;
+    position: relative;
+}
+
+.rightbarProfileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+.rightbarOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:limegreen;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    border: 2px solid #fff;
+}
+
+.rightbarUsername{
+    font-size: 15px;
+    font-weight: 100;
+}
